@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		768CAA0116D110F000AAFD23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768CAA0016D110F000AAFD23 /* UIKit.framework */; };
+		768CAA0316D110F000AAFD23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768CAA0216D110F000AAFD23 /* Foundation.framework */; };
+		768CAA0516D110F000AAFD23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768CAA0416D110F000AAFD23 /* CoreGraphics.framework */; };
+		768CAA0B16D110F000AAFD23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 768CAA0916D110F000AAFD23 /* InfoPlist.strings */; };
+		768CAA0D16D110F000AAFD23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 768CAA0C16D110F000AAFD23 /* main.m */; };
+		768CAA1116D110F000AAFD23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 768CAA1016D110F000AAFD23 /* AppDelegate.m */; };
+		768CAA1316D110F000AAFD23 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 768CAA1216D110F000AAFD23 /* Default.png */; };
+		768CAA1516D110F000AAFD23 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 768CAA1416D110F000AAFD23 /* Default@2x.png */; };
+		768CAA1716D110F000AAFD23 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 768CAA1616D110F000AAFD23 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		768CA9FD16D110F000AAFD23 /* BlockGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		768CAA0016D110F000AAFD23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		768CAA0216D110F000AAFD23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		768CAA0416D110F000AAFD23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		768CAA0816D110F000AAFD23 /* BlockGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlockGame-Info.plist"; sourceTree = "<group>"; };
+		768CAA0A16D110F000AAFD23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		768CAA0C16D110F000AAFD23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		768CAA0E16D110F000AAFD23 /* BlockGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlockGame-Prefix.pch"; sourceTree = "<group>"; };
+		768CAA0F16D110F000AAFD23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		768CAA1016D110F000AAFD23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		768CAA1216D110F000AAFD23 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		768CAA1416D110F000AAFD23 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		768CAA1616D110F000AAFD23 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		768CA9FA16D110F000AAFD23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768CAA0116D110F000AAFD23 /* UIKit.framework in Frameworks */,
+				768CAA0316D110F000AAFD23 /* Foundation.framework in Frameworks */,
+				768CAA0516D110F000AAFD23 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		768CA9F416D110F000AAFD23 = {
+			isa = PBXGroup;
+			children = (
+				768CAA0616D110F000AAFD23 /* BlockGame */,
+				768CA9FF16D110F000AAFD23 /* Frameworks */,
+				768CA9FE16D110F000AAFD23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		768CA9FE16D110F000AAFD23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				768CA9FD16D110F000AAFD23 /* BlockGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		768CA9FF16D110F000AAFD23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				768CAA0016D110F000AAFD23 /* UIKit.framework */,
+				768CAA0216D110F000AAFD23 /* Foundation.framework */,
+				768CAA0416D110F000AAFD23 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		768CAA0616D110F000AAFD23 /* BlockGame */ = {
+			isa = PBXGroup;
+			children = (
+				768CAA0F16D110F000AAFD23 /* AppDelegate.h */,
+				768CAA1016D110F000AAFD23 /* AppDelegate.m */,
+				768CAA0716D110F000AAFD23 /* Supporting Files */,
+			);
+			path = BlockGame;
+			sourceTree = "<group>";
+		};
+		768CAA0716D110F000AAFD23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				768CAA0816D110F000AAFD23 /* BlockGame-Info.plist */,
+				768CAA0916D110F000AAFD23 /* InfoPlist.strings */,
+				768CAA0C16D110F000AAFD23 /* main.m */,
+				768CAA0E16D110F000AAFD23 /* BlockGame-Prefix.pch */,
+				768CAA1216D110F000AAFD23 /* Default.png */,
+				768CAA1416D110F000AAFD23 /* Default@2x.png */,
+				768CAA1616D110F000AAFD23 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		768CA9FC16D110F000AAFD23 /* BlockGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 768CAA1A16D110F000AAFD23 /* Build configuration list for PBXNativeTarget "BlockGame" */;
+			buildPhases = (
+				768CA9F916D110F000AAFD23 /* Sources */,
+				768CA9FA16D110F000AAFD23 /* Frameworks */,
+				768CA9FB16D110F000AAFD23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlockGame;
+			productName = BlockGame;
+			productReference = 768CA9FD16D110F000AAFD23 /* BlockGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		768CA9F516D110F000AAFD23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = jp.main.yamato;
+			};
+			buildConfigurationList = 768CA9F816D110F000AAFD23 /* Build configuration list for PBXProject "BlockGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 768CA9F416D110F000AAFD23;
+			productRefGroup = 768CA9FE16D110F000AAFD23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				768CA9FC16D110F000AAFD23 /* BlockGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		768CA9FB16D110F000AAFD23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768CAA0B16D110F000AAFD23 /* InfoPlist.strings in Resources */,
+				768CAA1316D110F000AAFD23 /* Default.png in Resources */,
+				768CAA1516D110F000AAFD23 /* Default@2x.png in Resources */,
+				768CAA1716D110F000AAFD23 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		768CA9F916D110F000AAFD23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768CAA0D16D110F000AAFD23 /* main.m in Sources */,
+				768CAA1116D110F000AAFD23 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		768CAA0916D110F000AAFD23 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				768CAA0A16D110F000AAFD23 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		768CAA1816D110F000AAFD23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		768CAA1916D110F000AAFD23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		768CAA1B16D110F000AAFD23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlockGame/BlockGame-Prefix.pch";
+				INFOPLIST_FILE = "BlockGame/BlockGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		768CAA1C16D110F000AAFD23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlockGame/BlockGame-Prefix.pch";
+				INFOPLIST_FILE = "BlockGame/BlockGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		768CA9F816D110F000AAFD23 /* Build configuration list for PBXProject "BlockGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768CAA1816D110F000AAFD23 /* Debug */,
+				768CAA1916D110F000AAFD23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		768CAA1A16D110F000AAFD23 /* Build configuration list for PBXNativeTarget "BlockGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768CAA1B16D110F000AAFD23 /* Debug */,
+				768CAA1C16D110F000AAFD23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 768CA9F516D110F000AAFD23 /* Project object */;
+}
