@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  BlockViewController.h
 //  BlockGame
 //
 //  Created by tomohiko on 2013/02/17.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>{
-    UIWindow* _window;
-}
-
-@property (nonatomic,retain) UIWindow *window;
+@interface BlockViewController : UIViewController
 
 @end
