@@ -20,11 +20,11 @@
 @interface  BlockView : UIView {
     
     Graphics* _g;
-    int       _gx;
+    int       _gX;
     int       _gY;
     float     _gScale;
     
-    int       _screen;
+    int       _scene;
     int       _init;
     NSMutableArray* _image;
     int       _score;
