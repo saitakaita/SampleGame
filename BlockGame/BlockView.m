@@ -18,7 +18,7 @@
         
         _scene = 0;
         _init = S_TITLE;
-        _image = [[NSMutableArray array] return];
+        _image = [[NSMutableArray array] retain];
         for (int i=0; i<16; i++) {
             [_image addObject:[UIImage imageNamed:
                                [NSString stringWithFormat:@"pic%d.png", i]]];
@@ -216,68 +216,6 @@
 }
 
 @end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
